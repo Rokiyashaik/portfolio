@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rokiya's portfolio</title>
+    <link rel="stylesheet" href='style.css'/>
+    <script src="https://kit.fontawesome.com/1f77aed75e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Certifications</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul> 
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Student</p>
+            <h1>Hi,I'm <span>Rokiya</span><br> from Andhrapradesh</h1>
+        </div>
+
+    </div>
+  </div>  
+  <!-----------about----->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+               <img src="./images/passportpic.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>
+                    As a computer science and engineering student, I am deeply passionate about exploring the dynamic world of software engineering.
+                    Through dedicated learning and hands-on experience, I have mastered programming languages, software development methodologies, 
+                    and design principles.I thrive on building innovative projects, collaborating with peers, and staying updated with the latest 
+                    advancements in technology.  With a commitment to lifelong learning and a drive to solve complex problems,I am excited to contribute 
+                    to the ever-evolving field of software engineering and make a meaningful impact in the digital landscape.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>JAVA</span><br>Proficient in Java for problem-solving and implementing data structures, with a strong grasp of its syntax, object-oriented principles, and application in software development.</li>
+                        <li><span>HTML</span><br>Proficient in HTML for designing and structuring web applications.</li>
+                        <li><span>CSS</span><br>Proficient in CSS for web application design, with a focus on creating visually appealing and responsive user interfaces</li>
+                        <li><span>MySQL</span><br>Familiar with MySQL for database management, capable of performing basic queries and database operations.</li>
+                        <li><span>JavaScript</span><br>Familiar with JavaScript fundamentals for implementing interactive elements and enhancing user experience in web applications.</li>
+                        <li><span>MongoDB</span><br>Familiar with MongoDB for basic database operations and data management in web development projects.</li>
+                        <li><span>ExpressJs</span><br>Familiar with Express.js for building backend applications and RESTful APIs.</li>
+                        <li><span>REACT</span><br>Familiar with React for building user interfaces, with a foundation in component-based development and state management.</li>
+                        <li><span>NodeJs</span><br>Familiar with Node.js for server-side JavaScript development, with foundational understanding of its core concepts and functionalities.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <br>
+                        <li><span>MERN FULLSTACK INTERN | ETHNUS</span><br>Completed virtual MERN Stack internship with Ethnus, gaining practical experience and earning a global certification.<br></li><br>
+                        <li><span>WEB DEVELOPMENT INTERN | INTERNSHALA</span><br>Successfully completed a virtual web development internship with Internshala, gaining hands-on experience in building and deploying web applications.</li><br>
+                        <li><span>SOCIAL-MEDIA-MANAGER | NGC-UNIVERSITY CLUB</span><br>Promoted from Marketing Lead to Social Media Manager at NGC within one month, successfully recruiting over 60 teams and leading various promotional campaigns.</li>
+                       
+                    </ul>
+                </div>  
+                                <div class="tab-contents" id="education">
+                    <ul>
+                        <br>
+                        <li><span> BTech in CSE</span><br>Vellore Institute Of Technology ,AndhraPradesh<br>2021-2025<br>CGPA-8.64<br></li>
+                        <li><span>CLASS 12</span><br>Narayana Junior College,AndhraPradesh<br>2019-2021<br>Total Score-959<br></li>
+                        <li><span>CLASS 10</span><br>Kanna English Medium School,AndhraPradesh<br>CGPA-10<br></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+<!--services-->
+<div id="services">
+    <div class="container">
+       <h1 class="sub-title">My Certifications</h1>
+       <div class="services-list">
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>AWS CLOUD PRACTITIONER</h2>
+                <a href="https://drive.google.com/file/d/1sjDIdmzZ1yajqZ-ZDrySo2cuoPIWVQXe/view?usp=drivesdk"><i class="fa-solid fa-link"></i></a>
+               
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>MERN CERTIFICATION</h2>
+               <a href="https://drive.google.com/file/d/1p3jjcHhptPFKa-VjhU9OV1OANVPPB2MA/view?usp=drivesdk"><i class="fa-solid fa-link"></i></a>
+                <h2>INTERNSHALA CERTIFICATION</h2>
+                <a href="https://drive.google.com/file/d/1KwHV1qk5yd7hOLWq3u2iWG9CxqYiyarK/view?usp=drivesdk"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <div>
+               
+                <i class="fa-brands fa-python"></i>
+                <h2>PYTHON ESSENTIALS BY CISCO</h2>
+                <a href="https://drive.google.com/file/d/1OeZjYwZf8DhzigDPaAsSoidyvHHLQOxA/view?usp=drivesdk"><i class="fa-solid fa-link"></i></a>
+                
+            </div>
+            <div>
+               
+                <i class="fa-regular fa-file-excel"></i>
+                <h2>JP Morgan EXCEL FOR JOB STIMULATION</h2>
+                <a href="https://drive.google.com/file/d/1KefcakYapeZOk6cG8wc3FWSsteGlnrkb/view?usp=drivesdk"><i class="fa-solid fa-link"></i></a>
+                
+            </div>
+
+       </div>
+
+    </div>
+
+</div>
+
+
+<div id="portfolio">
+   <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="./images/realestate.png">
+            <div class="layer">
+                <h3>REAL-ESTATE WEB APPLICATION</h3>
+              <p>Led the development of a comprehensive real estate website, facilitating seamless property listings and user interactions for enhanced customer experience. </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./images/placement.png">
+            <div class="layer">
+                <h3>PLACEMENT MANAGEMENT WEB APPLICATION</h3>
+                <p>Designed and implemented a robust placement management system, streamlining the process of student placements and employer interactions for efficient career services </p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+             </div>
+        <div class="work">
+          <img src="./images/shopping.png">
+            <div class="layer">
+            <h3>E-COMMERCE SHOPPING WEB APPLICATION</h3>
+            <p>Crafted an immersive e-commerce platform, offering seamless shopping experiences and intuitive navigation for users. </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            
+        </div>
+      
+    </div>
+    <a href="#" class="btn">See more</a>
+        
+   </div> 
+    
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>rokiyashaik14@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8125830064</p>
+                <div class="socialicons">
+                    <a href="mailto:rokiyashaik14@gmail.com"><i class="fa-solid fa-envelope"></i></a></a>
+                    <a href="https://www.linkedin.com/in/shaik-rokiya-39050a22b"><i class="fa-brands fa-linkedin"></i> </a>
+                    <a href=""><i class="fa-brands fa-instagram"></i> </a>
+                   <a href="https://github.com/Rokiyashaik"><i class="fa-brands fa-github"></i></a> 
+                    
+
+                </div>
+                <a href="./images/Rokiya_resume.pdf" download class="btn btn2">Downlaod Resume</a>
+                
+            </div> 
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your E-mail" required>
+                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form> 
+         <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © made by <i class="fa-solid fa-heart"></i>Shaik Rokiya </p>
+    </div>
+</div>
+
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyw1pkzl2mLPqsrE0Rp41zIqTRVe9KhQyRe3H4pZoRNlJ2bLxorp28c6ThZ4IXo-7FW/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+             msg.innerHTML="Message sent successfully"
+             setTimeout(function(){
+                msg.innerHTML=""
+             },5000)
+             form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
